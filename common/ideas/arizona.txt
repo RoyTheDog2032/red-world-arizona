@@ -1,0 +1,21 @@
+ideas = {
+
+    country = { 
+
+                second_in_command = {
+	    arizona_sic_tim_foley = {
+		
+		    allowed = {
+			    original_tag = ARI
+			}
+			
+			available = {
+			    OR = {
+					has_government = fascist
+				} 
+			}
+			
+			traits = { power_hungry_demagogue }			
+		}
+             
+                 

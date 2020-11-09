@@ -1,0 +1,194 @@
+focus_tree = {
+	id = Arizona
+	country = {
+		factor = 0
+		modifier = {
+			add = 15
+			tag = ARI
+		}
+	}
+	#Focus for the status of economy
+	focus = {
+		id = ARI_the_status_of_economy
+		icon = GFX_goal_continuous_repairments
+		x = 13
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ARI_a_debate_over_our_future }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+days = 1 
+id = redworldarizona.4
+}
+		}
+	}
+
+	#Focus for the end of the debates
+	focus = {
+		id = ARI_the_end_of_the_debates
+		icon = GFX_goal_tfv_sever_ties_with_uk
+		x = 7
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = ARI_the_status_of_economy 
+		}
+		prerequisite = { 
+			focus = ARI_the_status_of_our_military 
+		}
+		prerequisite = { 
+			focus = ARI_the_status_of_mexican_arizonians 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+days = 1 
+id = redworldarizona.5
+}
+		}
+	}
+
+	#Focus for The State Of Arizona
+	focus = {
+		id = ARI_the_state_of_arizona
+		icon = GFX_focus_spr_torchbearers_of_tomorrow
+		x = 7
+		y = 0
+		cost = 1
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_political_power= 150
+		}
+	}
+
+	#Focus for a debate over our future
+	focus = {
+		id = ARI_a_debate_over_our_future
+		icon = GFX_goal_tripartite_pact
+		x = 7
+		y = 1
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = ARI_the_state_of_arizona }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+days = 1
+id = redworldarizona.1
+}
+		}
+	}
+
+	#Focus for The status of Mexican Arizonians
+	focus = {
+		id = ARI_the_status_of_mexican_arizonians
+		icon = GFX_goal_generic_political_pressure
+		x = 1
+		y = 2
+		cost = 1
+		available_if_capitulated = yes
+		prerequisite = { focus = ARI_a_debate_over_our_future }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+days = 1 
+id = redworldarizona.2
+}
+		}
+	}
+
+	#Focus for the status of our military
+	focus = {
+		id = ARI_the_status_of_our_military
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		x = 7
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = ARI_a_debate_over_our_future }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			country_event= {
+days = 1 
+id = redworldarizona.3
+}
+		}
+	}
+
+	#Focus for President Craig
+	focus = {
+		id = ARI_president_craig
+		icon = GFX_goal_support_democracy
+		x = 14
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The first Arizonian navy
+	focus = {
+		id = ARI_the_first_arizonian_navy
+		icon = GFX_goal_generic_amphibious_assault
+		x = 1
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The National Guard of Arizona
+	focus = {
+		id = ARI_the_national_guard_of_arizona
+		icon = GFX_goal_generic_major_war
+		x = 5
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+	#Focus for The Border Militia Rules The State.
+	focus = {
+		id = ARI_the_border_militia_rules_the_state
+		icon = GFX_focus_generic_strike_at_democracy1
+		x = 6
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_completed_focus= ARI_The_National_Guard_of_Arizona
+
+has_government= fascist 
+
+has_completed_focus= ARI_the_status_of_our_military
+		}
+	}
+
+#End of focuses 
+ }

@@ -1,0 +1,17 @@
+﻿units = {
+	
+	division = {
+		name = "1st Border Milita"
+		location = 853
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+}
+
+        division = {
+		name = "2nd Border Milita"
+		location = 853
+		division_template = "Infantry Division"
+		start_experience_factor = 0.2
+	}
+}

@@ -1,0 +1,75 @@
+﻿create_field_marshal = {
+	name = "Richard A. Cody"
+	picture = "Portrait_Richard_A_Cody.dds"
+	traits = {  }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Anthony C. Funkhouser"
+	picture = "Portrait_Anthony_C_Funkhouser.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Teddy Kleisner"
+	picture = "Portrait_Teddy_Kleisner.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "John M. Custer III"
+	picture = "Portrait_John_M_Custer_III.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 1
+}
+
+create_corps_commander = {
+	name = "Kirk E. Gibbs"
+	picture = "Portrait_Kirk_E_Gibbs.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 1
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_navy_leader = {
+	name = "Cecil D. Haney"
+	picture = "Portrait_Cecil_D_Haney.dds"
+	traits = {  }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Mark E. Ferguson III"
+	picture = "Portrait_Mark_E_Ferguson_III.dds"
+	traits = {  }
+	skill = 2
+}
+
+create_navy_leader = {
+	name = "Thad Allen"
+	picture = "Portrait_Thad_Allen.dds"
+	traits = {  }
+	skill = 2
+}

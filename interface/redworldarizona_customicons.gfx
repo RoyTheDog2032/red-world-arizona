@@ -1,0 +1,45 @@
+spriteTypes = { 
+	##Icon For: The Debate Over The Future Of Arizona
+	SpriteType = { 
+		name = "the_debate_over_the_future_of_arizona-41309"
+		texturefile = "gfx/interface/event_gfx/the_debate_over_the_future_of_arizona-41309.dds"
+	}
+
+	##Icon For: The status of Mexican Arizonians
+	SpriteType = { 
+		name = "cXGNodeK-41322"
+		texturefile = "gfx/interface/event_gfx/cXGNodeK-41322.dds"
+	}
+
+	##Icon For: The status of the military of Arizona
+	SpriteType = { 
+		name = "the_status_of_the_military_of_arizona-41349"
+		texturefile = "gfx/interface/event_gfx/the_status_of_the_military_of_arizona-41349.dds"
+	}
+
+	##Icon For: The Status of Arizona's economy
+	SpriteType = { 
+		name = "the_status_of_arizonas_economy-41366"
+		texturefile = "gfx/interface/event_gfx/the_status_of_arizonas_economy-41366.dds"
+	}
+
+	##Icon For: The Convention Concludes
+	SpriteType = { 
+		name = "the_convention_concludes-41322"
+		texturefile = "gfx/interface/event_gfx/the_convention_concludes-41322.dds"
+	}
+
+	##Icon For: The Arizona Senate Massacre
+	SpriteType = { 
+		name = "the_arizona_senate_massacre-41309"
+		texturefile = "gfx/interface/event_gfx/the_arizona_senate_massacre-41309.dds"
+	}
+
+	##Icon For: The bloodbath averted
+	SpriteType = { 
+		name = "the_bloodbath_averted-41309"
+		texturefile = "gfx/interface/event_gfx/the_bloodbath_averted-41309.dds"
+	}
+
+ 
+ }

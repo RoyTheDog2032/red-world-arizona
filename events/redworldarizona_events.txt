@@ -1,0 +1,260 @@
+add_namespace = redworldarizona
+
+##Event: The Debate Over The Future Of Arizona
+country_event = {
+	id = redworldarizona.1
+	title = redworldarizona.1.title
+	desc = redworldarizona.1.desc
+	picture = GFX_the_debate_over_the_future_of_arizona-41309
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = redworldarizona.1.a
+		ai_chance = { factor = 1}
+	}
+}
+##Event: The status of Mexican Arizonians
+country_event = {
+	id = redworldarizona.2
+	title = redworldarizona.2.title
+	desc = redworldarizona.2.desc
+	picture = GFX_cXGNodeK-41322
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = redworldarizona.2.a
+		ai_chance = { factor = 1}
+		add_popularity= { 
+ideology = centrist 
+popularity = 1.0
+}
+	}
+	option = {
+		name = redworldarizona.2.b
+		ai_chance = { factor = 1}
+		add_popularity= { 
+ideology = nationalist
+popularity = 1.0
+}
+	}
+	option = {
+		name = redworldarizona.2.c
+		ai_chance = { factor = 1}
+		add_popularity= { 
+ideology = liberal
+popularity = 5.0
+}
+	}
+	option = {
+		name = redworldarizona.2.d
+		ai_chance = { factor = 1}
+		add_popularity= { 
+ideology = communist
+popularity = 1.0
+}
+	}
+	option = {
+		name = redworldarizona.2.e
+		ai_chance = { factor = 1}
+		add_popularity= { 
+ideology = fascist
+popularity = 1.0
+}
+	}
+}
+##Event: The status of the military of Arizona
+country_event = {
+	id = redworldarizona.3
+	title = redworldarizona.3.title
+	desc = redworldarizona.3.desc
+	picture = GFX_the_status_of_the_military_of_arizona-41349
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	mean_time_to_happen = {
+		days = 7
+	}
+	option = {
+		name = redworldarizona.3.a
+		ai_chance = { factor = 1}
+		add_ideas= low_economic_mobilisation 
+
+add_popularity= { 
+ideology = centrist
+popularity = 1.0
+}
+	}
+	option = {
+		name = redworldarizona.3.b
+		ai_chance = { factor = 1}
+		add_popularity= { 
+ideology = nationalist
+popularity = 1.0
+}
+
+add_ideas= low_economic_mobilisation 
+add_ideas= limited_conscription
+	}
+	option = {
+		name = redworldarizona.3.c
+		ai_chance = { factor = 1}
+		add_popularity= { 
+ideology = liberal
+popularity = 1.0
+}
+  
+
+add_ideas= partial_economic_mobilisation
+	}
+	option = {
+		name = redworldarizona.3.d
+		ai_chance = { factor = 1}
+		add_popularity= { 
+ideology = communist
+popularity = 1.0
+}
+
+add_ideas= low_economic_mobilisation 
+add_ideas= limited_conscription
+	}
+	option = {
+		name = redworldarizona.3.e
+		ai_chance = { factor = 1}
+		add_popularity= { 
+ideology = fascist
+popularity = 1.0
+}
+
+add_ideas= war_economy 
+add_ideas= service_by_requirement
+	}
+}
+##Event: The Status of Arizona's economy
+country_event = {
+	id = redworldarizona.4
+	title = redworldarizona.4.title
+	desc = redworldarizona.4.desc
+	picture = GFX_the_status_of_arizonas_economy-41366
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = redworldarizona.4.a
+		ai_chance = { factor = 1}
+		add_ideas= free_trade
+
+add_popularity= { 
+ideology = centrist
+popularity = 1.0
+}
+	}
+	option = {
+		name = redworldarizona.4.b
+		ai_chance = { factor = 1}
+		add_ideas= export_focus
+
+add_popularity= { 
+ideology = nationalist
+popularity = 1.0
+}
+	}
+	option = {
+		name = redworldarizona.4.c
+		ai_chance = { factor = 1}
+		add_ideas= limited_exports
+
+add_popularity= { 
+ideology = liberal
+popularity = 1.0
+}
+	}
+	option = {
+		name = redworldarizona.4.d
+		ai_chance = { factor = 1}
+		add_ideas= closed_economy 
+
+add_popularity= { 
+ideology = communist
+popularity = 1.0
+}
+	}
+	option = {
+		name = redworldarizona.4.e
+		ai_chance = { factor = 1}
+		add_ideas= closed_economy 
+
+add_popularity= { 
+ideology = fascist
+popularity = 1.0
+}
+	}
+}
+##Event: The Convention Concludes
+country_event = {
+	id = redworldarizona.5
+	title = redworldarizona.5.title
+	desc = redworldarizona.5.desc
+	picture = GFX_the_convention_concludes-41322
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = redworldarizona.5.a
+		ai_chance = { factor = 1}
+		set_politics= {
+ ruling_party = fascist 
+elections_allowed = no 
+}
+
+add_popularity= { 
+ideology = fascist
+popularity = 10.0
+}
+
+country_event= {
+days = 1
+id = redworldarizona.6
+}
+	}
+	option = {
+		name = redworldarizona.5.b
+		ai_chance = { factor = 1}
+		country_event= {
+days = 1
+id = redworldarizona.7
+}
+	}
+}
+##Event: The Arizona Senate Massacre
+country_event = {
+	id = redworldarizona.6
+	title = redworldarizona.6.title
+	desc = redworldarizona.6.desc
+	picture = GFX_the_arizona_senate_massacre-41309
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = redworldarizona.6.a
+		ai_chance = { factor = 1}
+		kill_ideology_leader = communist 
+kill_ideology_leader = liberal
+	}
+}
+##Event: The bloodbath averted
+country_event = {
+	id = redworldarizona.7
+	title = redworldarizona.7.title
+	desc = redworldarizona.7.desc
+	picture = GFX_the_bloodbath_averted-41309
+	is_triggered_only = yes
+	fire_only_once = yes
+	major = yes
+	option = {
+		name = redworldarizona.7.a
+		ai_chance = { factor = 1}
+		kill_ideology_leader = fascist
+	}
+}
